@@ -1,4 +1,13 @@
+---
 name: Sejal Jadhav
 role: AWS Devops Engineer
 experience_years: 4 years
-learning: true 
+learning: "true"
+tools:
+  - IAC(Terraform)
+  - CICD(GitHub Actions)
+  - Jenkins
+  - Azure Devops
+  - Graphana
+  #This is the way 2 to write in list format in YAML
+hobbies: [Singing, Drawing, Cooking, Traveling, Creativity]

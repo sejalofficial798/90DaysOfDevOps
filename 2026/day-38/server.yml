@@ -1,0 +1,24 @@
+---
+Server:
+  name: josh-batch10-instance
+  IP: 172.31.38.47
+  Port: 8080
+
+Database:
+  host: localhost
+  name: devops
+  credentials:
+    user: Admin
+    password: Test@123
+
+startup_script_block: |
+  #!/bin/bash
+  echo "application has Started"
+  systemctl start nginx
+  echo "Server is started"
+
+startup_script_folded: >
+  #!/bin/bash
+  echo "application has Started"
+  systemctl start nginx
+  echo "Server is started"
